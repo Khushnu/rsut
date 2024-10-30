@@ -101,6 +101,11 @@ enum IpAddrKind {
 
 // fn route(ip_kind: IpAddrKind){}
 
+enum Option<T>{
+    Some(T), 
+    None
+}
+
 fn main() {
 
     // let four = IpAddrKind::V4;
